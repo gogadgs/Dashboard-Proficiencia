@@ -20,9 +20,11 @@ list.forEach((item) =>
 
 // função para ocultar/mostrar menu //
 // interessante variável  com evento atrelado com uma função
-toggle.onclick = function () {
-    navigation.classList.toggle('active')
-    main.classList.toggle('active')
+toggle.onclick = () => {
+    navigation.classList.toggle('active');
+    main.classList.toggle('active');
+  };
 
+ 
 
-}
+  
