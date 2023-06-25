@@ -39,7 +39,7 @@
 body {
     min-height: 100vh;
     min-width: 100vw;
-    overflow: hidden;
+
 }
 
 /* seção  de classe menu */
@@ -260,7 +260,7 @@ span.photo img {
 }
 
 .search label input {
-    max-width: 110%;
+    min-width: 443px;
     height: 40px;
     border-radius: 40px;
     padding: 5px 20px 5px;
@@ -307,7 +307,8 @@ td .user {
 .cardBox {
 
     position: relative;
-    width: 100%;
+   min-width: 600px;
+   margin:0 1rem;
     padding: 20px;
     display: grid;
     grid-gap: 20px;
@@ -359,6 +360,30 @@ td .user {
     color: var(--white);
 }
 
+/*  seção dos graficos da biblioteca javascript  */
+.caixaGraficos{
+    position:relative;
+    min-width:630px;
+    padding:20px;
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap:30px;
+    min-height:200px;
+}
+
+.caixaGraficos .box{
+    position:relative;
+    background:#FFF;
+    padding:20px;
+    min-width:100%;
+    box-shadow:0 7px 25px rgba(0,0,0,0.8);
+    border-radius:20px;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    -ms-border-radius:20px;
+    -o-border-radius:20px;
+}
+
 .details {
 
 
@@ -374,7 +399,7 @@ td .user {
 .details .recentOrders {
     position: relative;
     min-height: 300px;
-    width: 100%;
+    min-width: 600px;
     height:100%;
     background: var(--white);
     padding: 20px;
