@@ -56,30 +56,9 @@
 
 /*  seção tablet  */
 
-@media(max-width:991px){
+@media only screen and  (min-width:1024px){
     .caixaGraficos{
-        display:grid;
-        grid-template-columns:1fr !important;
-        height:auto;
+        min-width:52rem !important;
     }
-    .navigation{
-        left:-300px;
-    }
-    .navigation.active{
-        left:0 !important;
-        width:300px !important;
-    }
-
-   .main{
-    width:100% !important;
-    left:0 !important;
-   }
-   .main.active{
-    left:300px !important;
-   }
-
-   .cardBox{
-    grid-template-columns: repeat(1,1fr) !important;
-   }
 }
 
