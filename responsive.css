@@ -30,15 +30,18 @@
     }
     .search label input{
         position: relative;
-        right: 100px;
-        min-height: 3rem;
+        right: 143px;
+        min-height: 2rem;
         padding: 1rem 2rem 1em !important;
         padding-left: 40px !important;
         text-align: center;
+        font-size:0.62rem !important;
+        min-width: 280px !important;
     }
 
     .search label ion-icon{
-        left:-90px !important;
+        left:-130px !important;
+        font-size:1rem !important;
     }
     .btn{
         margin:0 2rem;

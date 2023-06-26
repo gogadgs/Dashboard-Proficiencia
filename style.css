@@ -307,8 +307,7 @@ td .user {
 .cardBox {
 
     position: relative;
-   min-width: 600px;
-   margin:0 1rem;
+   min-width: 50px;
     padding: 20px;
     display: grid;
     grid-gap: 20px;
@@ -363,7 +362,6 @@ td .user {
 /*  seção dos graficos da biblioteca javascript  */
 .caixaGraficos{
     position:relative;
-    min-width:630px;
     padding:20px;
     display:grid;
     grid-template-columns: 1fr 2fr;
@@ -399,7 +397,6 @@ td .user {
 .details .recentOrders {
     position: relative;
     min-height: 300px;
-    min-width: 600px;
     height:100%;
     background: var(--white);
     padding: 20px;
