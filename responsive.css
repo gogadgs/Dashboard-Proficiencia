@@ -4,6 +4,8 @@
         display:grid;
         grid-template-columns:1fr !important;
         height:auto;
+        min-width: 340px;
+        max-width: 500px;
     }
     .container{
         position: relative;
